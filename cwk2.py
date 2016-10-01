@@ -16,7 +16,7 @@ def turn_off():
         label1 = Label(root, text="Your computer will shut down in " + str(timez - i))
         label1.grid(row=3, columnspan=2)
         root.update()
-        time.sleep(1)
+        time.sleep(1) # this is bad..
         
 
 ## cancel turning off 		
@@ -41,9 +41,6 @@ def show_ip():
         label1 = Label(root, text="Your public ip: " + str(item.text))
         label1.grid(row=3, columnspan=2)
         root.update()
-
-def trigger():
-    return True
 
 def quit():
     root.destroy()
