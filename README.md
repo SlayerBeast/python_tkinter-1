@@ -1,4 +1,4 @@
-# python_tkinter
+# python_tkinter_GUI_Project
 Absolutely useless, first piece of code I wrote using tkinter.
 Throwback, two years ago I tried to replicate one of my childhood's most used program called **CWK**. The main function of the program allowed you to *turn off your computer after certain amount of time* or even *shutting it after closing certain running program.*
 
